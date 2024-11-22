@@ -1,0 +1,3 @@
+D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/ec_hw_platform.elf.dir
+D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/rebuild_cache.dir

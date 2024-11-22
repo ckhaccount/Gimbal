@@ -1,0 +1,18 @@
+#include "BMI088.h"
+#include "main.h"
+extern uint8_t return_acc_data[12];
+extern uint8_t return_gyro_data[6];
+extern uint8_t range_acc;
+extern uint8_t range_gyro;
+extern float acc[3];
+extern float gyro[3];
+void  HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if (htim->Instance == TIM4)
+    {
+        GetAccelData(return_acc_data,range_acc,&acc[0],&acc[1],&acc[2]);
+        GetGyroData(return_gyro_data,range_gyro,&gyro[0],&gyro[1],&gyro[2]);
+        HAL_GPIO_TogglePin(LED_G_GPIO_Port,LED_G_Pin);
+
+    }
+}
