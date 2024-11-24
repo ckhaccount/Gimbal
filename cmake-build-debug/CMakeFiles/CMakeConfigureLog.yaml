@@ -4,7 +4,7 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
       - "CMakeLists.txt:17 (project)"
     message: |
       The target system is: Generic - 1 - 
@@ -12,9 +12,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
@@ -42,9 +42,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -59,14 +59,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o
+        D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
@@ -94,9 +94,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -111,13 +111,13 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o
+        D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1165 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
@@ -129,14 +129,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-agq60q"
-      binary: "D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-agq60q"
+      source: "D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ni2xo4"
+      binary: "D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ni2xo4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -145,13 +145,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-agq60q'
+        Change Dir: 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ni2xo4'
         
-        Run Build Command(s): C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4d6d5/fast
-        C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4d6d5.dir\\build.make CMakeFiles/cmTC_4d6d5.dir/build
-        mingw32-make[1]: Entering directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-agq60q'
-        Building C object CMakeFiles/cmTC_4d6d5.dir/CMakeCCompilerABI.c.obj
-        D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6f1df/fast
+        C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6f1df.dir\\build.make CMakeFiles/cmTC_6f1df.dir/build
+        mingw32-make[1]: Entering directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ni2xo4'
+        Building C object CMakeFiles/cmTC_6f1df.dir/CMakeCCompilerABI.c.obj
+        D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -159,8 +159,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240612-1315) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_4d6d5.dir\\'
-         D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_4d6d5.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\Dell\\AppData\\Local\\Temp\\ccXDvyMR.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_6f1df.dir\\'
+         D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_6f1df.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\Dell\\AppData\\Local\\Temp\\cczkecdP.s
         GNU C17 (GNU Tools for STM32 12.3.rel1.20240612-1315) version 12.3.1 20230626 (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -181,25 +181,25 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 8c85bce3e8a10a7ec33a6a6bd0176b53
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_4d6d5.dir\\'
-         D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Dell\\AppData\\Local\\Temp\\ccXDvyMR.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_6f1df.dir\\'
+         D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Dell\\AppData\\Local\\Temp\\cczkecdP.s
         GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240612-1315) 2.40.0.20230627
         COMPILER_PATH=D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.'
-        Linking C static library libcmTC_4d6d5.a
-        C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_4d6d5.dir\\cmake_clean_target.cmake
-        C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_4d6d5.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_4d6d5.a CMakeFiles/cmTC_4d6d5.dir/CMakeCCompilerABI.c.obj
-        D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_4d6d5.a
-        mingw32-make[1]: Leaving directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-agq60q'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_6f1df.a
+        C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_6f1df.dir\\cmake_clean_target.cmake
+        C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6f1df.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_6f1df.a CMakeFiles/cmTC_6f1df.dir/CMakeCCompilerABI.c.obj
+        D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_6f1df.a
+        mingw32-make[1]: Leaving directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ni2xo4'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -224,20 +224,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-agq60q']
+        ignore line: [Change Dir: 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ni2xo4']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4d6d5/fast]
-        ignore line: [C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4d6d5.dir\\build.make CMakeFiles/cmTC_4d6d5.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-agq60q']
-        ignore line: [Building C object CMakeFiles/cmTC_4d6d5.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6f1df/fast]
+        ignore line: [C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6f1df.dir\\build.make CMakeFiles/cmTC_6f1df.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ni2xo4']
+        ignore line: [Building C object CMakeFiles/cmTC_6f1df.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -245,8 +245,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240612-1315) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_4d6d5.dir\\']
-        ignore line: [ D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_4d6d5.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\Dell\\AppData\\Local\\Temp\\ccXDvyMR.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_6f1df.dir\\']
+        ignore line: [ D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_6f1df.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\Dell\\AppData\\Local\\Temp\\cczkecdP.s]
         ignore line: [GNU C17 (GNU Tools for STM32 12.3.rel1.20240612-1315) version 12.3.1 20230626 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -267,8 +267,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 8c85bce3e8a10a7ec33a6a6bd0176b53]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_4d6d5.dir\\']
-        ignore line: [ D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Dell\\AppData\\Local\\Temp\\ccXDvyMR.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_6f1df.dir\\']
+        ignore line: [ D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Dell\\AppData\\Local\\Temp\\cczkecdP.s]
         ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240612-1315) 2.40.0.20230627]
         ignore line: [COMPILER_PATH=D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/]
         ignore line: [D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/]
@@ -277,13 +277,13 @@ events:
         ignore line: [D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/]
         ignore line: [D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_4d6d5.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C static library libcmTC_4d6d5.a]
-        ignore line: [C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_4d6d5.dir\\cmake_clean_target.cmake]
-        ignore line: [C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_4d6d5.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_4d6d5.a CMakeFiles/cmTC_4d6d5.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_4d6d5.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-agq60q']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_6f1df.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_6f1df.a]
+        ignore line: [C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_6f1df.dir\\cmake_clean_target.cmake]
+        ignore line: [C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6f1df.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_6f1df.a CMakeFiles/cmTC_6f1df.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_6f1df.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ni2xo4']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -295,14 +295,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gozxpj"
-      binary: "D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gozxpj"
+      source: "D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frwx0k"
+      binary: "D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frwx0k"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -312,13 +312,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gozxpj'
+        Change Dir: 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frwx0k'
         
-        Run Build Command(s): C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_517d5/fast
-        C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_517d5.dir\\build.make CMakeFiles/cmTC_517d5.dir/build
-        mingw32-make[1]: Entering directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gozxpj'
-        Building CXX object CMakeFiles/cmTC_517d5.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_2e7c9/fast
+        C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2e7c9.dir\\build.make CMakeFiles/cmTC_2e7c9.dir/build
+        mingw32-make[1]: Entering directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frwx0k'
+        Building CXX object CMakeFiles/cmTC_2e7c9.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -326,8 +326,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240612-1315) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_517d5.dir\\'
-         D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_517d5.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\Dell\\AppData\\Local\\Temp\\ccCXgo4c.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2e7c9.dir\\'
+         D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_2e7c9.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\Dell\\AppData\\Local\\Temp\\ccBGUyxQ.s
         GNU C++17 (GNU Tools for STM32 12.3.rel1.20240612-1315) version 12.3.1 20230626 (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -354,25 +354,25 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: e40f213a8b38594a68f1558fe98e1d38
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_517d5.dir\\'
-         D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Dell\\AppData\\Local\\Temp\\ccCXgo4c.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2e7c9.dir\\'
+         D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Dell\\AppData\\Local\\Temp\\ccBGUyxQ.s
         GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240612-1315) 2.40.0.20230627
         COMPILER_PATH=D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_517d5.a
-        C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_517d5.dir\\cmake_clean_target.cmake
-        C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_517d5.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_517d5.a CMakeFiles/cmTC_517d5.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_517d5.a
-        mingw32-make[1]: Leaving directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gozxpj'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_2e7c9.a
+        C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_2e7c9.dir\\cmake_clean_target.cmake
+        C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2e7c9.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_2e7c9.a CMakeFiles/cmTC_2e7c9.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_2e7c9.a
+        mingw32-make[1]: Leaving directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frwx0k'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -409,20 +409,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
-      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:17 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gozxpj']
+        ignore line: [Change Dir: 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frwx0k']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_517d5/fast]
-        ignore line: [C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_517d5.dir\\build.make CMakeFiles/cmTC_517d5.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gozxpj']
-        ignore line: [Building CXX object CMakeFiles/cmTC_517d5.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/Users/Dell/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_2e7c9/fast]
+        ignore line: [C:/Users/Dell/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2e7c9.dir\\build.make CMakeFiles/cmTC_2e7c9.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frwx0k']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2e7c9.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
@@ -430,8 +430,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240612-1315) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_517d5.dir\\']
-        ignore line: [ D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_517d5.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\Dell\\AppData\\Local\\Temp\\ccCXgo4c.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2e7c9.dir\\']
+        ignore line: [ D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_2e7c9.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\Dell\\AppData\\Local\\Temp\\ccBGUyxQ.s]
         ignore line: [GNU C++17 (GNU Tools for STM32 12.3.rel1.20240612-1315) version 12.3.1 20230626 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -458,8 +458,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: e40f213a8b38594a68f1558fe98e1d38]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_517d5.dir\\']
-        ignore line: [ D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Dell\\AppData\\Local\\Temp\\ccCXgo4c.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2e7c9.dir\\']
+        ignore line: [ D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Dell\\AppData\\Local\\Temp\\ccBGUyxQ.s]
         ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240612-1315) 2.40.0.20230627]
         ignore line: [COMPILER_PATH=D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/]
         ignore line: [D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/]
@@ -468,13 +468,13 @@ events:
         ignore line: [D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/]
         ignore line: [D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [D:/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_517d5.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_517d5.a]
-        ignore line: [C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_517d5.dir\\cmake_clean_target.cmake]
-        ignore line: [C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_517d5.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_517d5.a CMakeFiles/cmTC_517d5.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_517d5.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gozxpj']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2e7c9.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_2e7c9.a]
+        ignore line: [C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_2e7c9.dir\\cmake_clean_target.cmake]
+        ignore line: [C:\\Users\\Dell\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2e7c9.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_2e7c9.a CMakeFiles/cmTC_2e7c9.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_2e7c9.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'D:/STM32Project/ec_hw_platform/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frwx0k']
         ignore line: []
         ignore line: []
         implicit libs: []

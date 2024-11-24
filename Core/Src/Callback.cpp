@@ -18,13 +18,13 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
     flag2=1;
     if(huart->Instance == USART3){
         //HAL_DMA_Abort(huart->hdmarx);
-        HAL_UART_Receive_DMA(&huart3,rc.Get_buffer(), sizeof(rc.Get_buffer()));
-        for(uint16_t i = 0; i < RC_RX_BUF_SIZE; i++){
+        HAL_UART_Receive_DMA(&huart3,rc.Get_buffer(), RC_RX_BUF_SIZE);
+        for(uint16_t i = 0; i < RC_RX_DATA_SIZE; i++){
             rc.Get_data()[i]=rc.Get_buffer()[i];
         }
         rc.Store_Data();
-        pitch_motor.Motor_Angle_PID.Set_Ref(rc.pitch_max_angle_*rc.RCChannel_.l_col);// pitch_motor.Motor_Angle_PID.Set_Ref(30);
-        yaw_motor.Motor_Angle_PID.Set_Ref(rc.yaw_max_angle_*rc.RCChannel_.l_row);//yaw_motor.Motor_Angle_PID.Set_Ref(30);
+        pitch_motor.Motor_Angle_PID.Set_Ref_Angle(rc.pitch_max_angle_*rc.RCChannel_.l_col);// pitch_motor.Motor_Angle_PID.Set_Ref(30);
+        yaw_motor.Motor_Angle_PID.Set_Ref_Angle(rc.yaw_max_angle_*rc.RCChannel_.l_row);//yaw_motor.Motor_Angle_PID.Set_Ref(30);
         //rc.Transmit_Data();
 
     }
@@ -34,7 +34,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     if (htim->Instance == TIM1){
         mainloop_flag = 1;
-        pitch_motor.Motor_Angle_PID.Set_Ref(180);
+        //pitch_motor.Motor_Angle_PID.Set_Ref_Angle(180);
         //rc.Transmit_Data();
     }
 }

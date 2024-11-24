@@ -1,4 +1,7 @@
 #include "PID.h"
+
+#include <functional>
+
 #include "Basic_Func.h"
 #include "General_Motor.h"
 PID::PID(float kp, float ki, float kd, float i_max, float out_max, float err_max):
@@ -29,36 +32,42 @@ float PID::calc(float ref,float fdb)
     output_=limit_1(pout_+iout_+dout_,out_max_,-out_max_);
     return output_;
 }
-float PID::Expect_Speed(float real_angle)
+float PID::Expect_Speed(const Motor &motor)
 {
-    fdb_=real_angle;
+    fdb_=motor.angle_;
     return limit_1(calc(ref_,fdb_),100,-100);
 }
-void PID::Set_Fed(const float fed)
+void PID::Set_Fed_Speed(const Motor &motor)
 {
-    this->fdb_=fed;
+    this->fdb_=motor.rotate_speed_;
 }
-void PID::Set_Ref(const float ref)
+void PID::Set_Ref_Speed(Motor &motor)
 {
-    this->ref_=ref;
+    this->ref_=motor.Motor_Angle_PID.Expect_Speed(motor);
+;
 }
-void PID::Uint16_Current(float real_speed, MotorType& motortype, uint8_t *TxData)
+void PID::Set_Ref_Angle(float ref)
+{
+    ref_=ref;
+}
+
+void PID::Uint16_Current(Motor &motor, uint8_t *TxData)
 {
     /*
      * this function gets the real speed of motor and
      * transform it to current transmitting to the motor with PID.
      */
-    fdb_=real_speed;
+    fdb_=motor.rotate_speed_;
     output_=limit_1(calc(ref_,fdb_),out_max_,-out_max_);
-    current_message=static_cast<uint16_t>(linearmap(output_,-motortype.out_current_max_,motortype.out_current_max_,-motortype.in_current_max_,motortype.in_current_max_));
-    if(motortype.ID_<=4)
+    current_message=static_cast<uint16_t>(linearmap(output_,-motor.motortype_.out_current_max_,motor.motortype_.out_current_max_,-motor.motortype_.in_current_max_,motor.motortype_.in_current_max_));
+    if(motor.motortype_.ID_<=4)
     {
-        TxData[2*static_cast<int>(motortype.ID_)-2]=current_message>>8 & 0xFF;
-        TxData[2*static_cast<int>(motortype.ID_)-1]=current_message & 0xFF;
+        TxData[2*static_cast<int>(motor.motortype_.ID_)-2]=current_message>>8 & 0xFF;
+        TxData[2*static_cast<int>(motor.motortype_.ID_)-1]=current_message & 0xFF;
     }
     else
     {
-        TxData[2*static_cast<int>(motortype.ID_)-10]=current_message>>8 & 0xFF;
-        TxData[2*static_cast<int>(motortype.ID_)-9]=current_message & 0xFF;
+        TxData[2*static_cast<int>(motor.motortype_.ID_)-10]=current_message>>8 & 0xFF;
+        TxData[2*static_cast<int>(motor.motortype_.ID_)-9]=current_message & 0xFF;
     }
 }

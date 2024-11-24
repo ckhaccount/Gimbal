@@ -13,7 +13,7 @@ uint32_t M2006_ID_2=0x02;
 uint32_t GM6020_ID_1=0x01;
 uint32_t GM6020_ID_2=0x02;
 M2006_Motor_Type yaw_motor_type(M2006_ID_1);
-GM6020_Motor_Type pitch_motor_type(GM6020_ID_1);
+GM6020_Motor_Type pitch_motor_type(GM6020_ID_1,0);
 Motor yaw_motor(yaw_motor_type,46,1.6,400,100,100,30,0.04,0.001,0.000,2,1.5);
 Motor pitch_motor(pitch_motor_type,40,0,0,100,100,30,0.06,0.001,0.000,1.5,1.5);
 CAN_RxHeaderTypeDef Motor_RxHeader;
@@ -41,7 +41,7 @@ int mainloop_flag=0;
 extern RC rc;
 void Init()
 {
-    HAL_UART_Receive_DMA(&huart3,rc.Get_buffer(), sizeof(rc.Get_buffer()));
+    HAL_UART_Receive_DMA(&huart3,rc.Get_buffer(),RC_RX_BUF_SIZE);
     HAL_CAN_ConfigFilter(&hcan1,&FilterConfig);
     HAL_CAN_Start(&hcan1);
     HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);

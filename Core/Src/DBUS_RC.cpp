@@ -1,8 +1,5 @@
 #include "main.h"
 #include "DBUS_RC.h"
-#include <cstdio>
-#include <cstring>
-#include "usart.h"
 #include <iostream>
 #include "Basic_Func.h"
 RC rc(30,30);
