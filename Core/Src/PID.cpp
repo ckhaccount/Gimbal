@@ -4,9 +4,9 @@
 
 #include "Basic_Func.h"
 #include "General_Motor.h"
-PID::PID(float kp, float ki, float kd, float i_max, float out_max, float err_max):
+PID::PID(float kp, float ki, float kd, float i_max, float out_max, float err_max, float (*forward)(float)):
     kp_(kp),ki_(ki),kd_(kd),
-    i_max_(i_max),out_max_(out_max),err_max_(err_max)
+    i_max_(i_max),out_max_(out_max),err_max_(err_max),forward_(forward)
 
 {
     this->current_message=0;
@@ -34,7 +34,12 @@ float PID::calc(float ref,float fdb)
 }
 float PID::Expect_Speed(const Motor &motor)
 {
-    fdb_=motor.angle_;
+    fdb_=motor.ecd_angle_;
+    //，防止倒转，比如ref_=30，但此时fdb_为350，它就会倒转一大圈
+    if (ref_-fdb_<-180)
+        fdb_-=360;
+    else if (ref_-fdb_>180)
+        fdb_+=360;
     return limit_1(calc(ref_,fdb_),100,-100);
 }
 void PID::Set_Fed_Speed(const Motor &motor)
@@ -48,7 +53,10 @@ void PID::Set_Ref_Speed(Motor &motor)
 }
 void PID::Set_Ref_Angle(float ref)
 {
-    ref_=ref;
+    if (ref>=0)
+        ref_=ref;
+    else
+        ref_=360+ref;
 }
 
 void PID::Uint16_Current(Motor &motor, uint8_t *TxData)
@@ -58,8 +66,9 @@ void PID::Uint16_Current(Motor &motor, uint8_t *TxData)
      * transform it to current transmitting to the motor with PID.
      */
     fdb_=motor.rotate_speed_;
+    //output_=limit_1(calc(ref_,fdb_)+forward_(motor.ecd_angle_),out_max_,-out_max_);
     output_=limit_1(calc(ref_,fdb_),out_max_,-out_max_);
-    current_message=static_cast<uint16_t>(linearmap(output_,-motor.motortype_.out_current_max_,motor.motortype_.out_current_max_,-motor.motortype_.in_current_max_,motor.motortype_.in_current_max_));
+    current_message=static_cast<int>(linearmap(output_,-motor.motortype_.out_current_max_,motor.motortype_.out_current_max_,-motor.motortype_.in_current_max_,motor.motortype_.in_current_max_));
     if(motor.motortype_.ID_<=4)
     {
         TxData[2*static_cast<int>(motor.motortype_.ID_)-2]=current_message>>8 & 0xFF;

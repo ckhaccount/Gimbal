@@ -2,11 +2,13 @@
 #include "Basic_Func.h"
 #include "PID.h"
 #include <array>
+extern float YawForward(float angle);
+extern float PitchForward(float angle);
 Motor::Motor(const MotorType& motortype, float angle_kp, float angle_ki, float angle_kd, float angle_i_max, float angle_out_max, float angle_err_max,
-    float speed_kp, float speed_ki, float speed_kd, float speed_i_max, float speed_err_max)://float speed_out_max即为out_current_max
+    float speed_kp, float speed_ki, float speed_kd, float speed_i_max, float speed_err_max, float(*AngleForward)(float),float(*SpeedForward)(float angle))://float speed_out_max即为out_current_max
     motortype_(motortype),
-    Motor_Angle_PID(angle_kp, angle_ki, angle_kd, angle_i_max, angle_out_max, angle_err_max),
-    Motor_Speed_PID(speed_kp, speed_ki, speed_kd, speed_i_max, motortype.out_current_max_, speed_err_max)
+    Motor_Angle_PID(angle_kp, angle_ki, angle_kd, angle_i_max, angle_out_max, angle_err_max, AngleForward),
+    Motor_Speed_PID(speed_kp, speed_ki, speed_kd, speed_i_max, motortype.out_current_max_, speed_err_max, SpeedForward)
 {
     angle_=0;
     delta_angle_=0;

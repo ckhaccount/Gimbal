@@ -7,7 +7,7 @@ class Motor;
 class PID
 {
 public:
-    PID(float kp, float ki, float kd, float i_max, float out_max, float err_max);
+    PID(float kp, float ki, float kd, float i_max, float out_max, float err_max, float (*forward)(float));
     float calc(float ref, float fdb);
     float Expect_Speed(const Motor& motor);
     void Uint16_Current(Motor &motor, uint8_t *TxData);
@@ -22,5 +22,6 @@ private:
     float ref_,fdb_;
     float err_,err_sum_,err_max_,last_err_;
     float pout_,iout_,dout_;
+    float (*forward_)(float angle);
 };
 #endif //PID_H
