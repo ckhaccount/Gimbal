@@ -395,11 +395,6 @@
           <GroupName>Application/User/Core</GroupName>
           <Files>
             <File>
-              <FileName>BMI088.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Core\Src\BMI088.c</FilePath>
-            </File>
-            <File>
               <FileName>Basic_Func.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>..\Core\Src\Basic_Func.cpp</FilePath>
@@ -488,6 +483,11 @@
               <FileName>stm32f4xx_hal_msp.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_msp.c</FilePath>
+            </File>
+            <File>
+              <FileName>BMI088.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\BMI088.cpp</FilePath>
             </File>
           </Files>
         </Group>

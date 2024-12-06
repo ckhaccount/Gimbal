@@ -24,7 +24,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
             rc.Get_data()[i]=rc.Get_buffer()[i];
         }
         rc.Store_Data();
-        pitch_motor.Motor_Angle_PID.Set_Ref_Angle(169+rc.pitch_max_angle_*rc.RCChannel_.l_col);// pitch_motor.Motor_Angle_PID.Set_Ref(30);
+        pitch_motor.Motor_Angle_PID.Set_Ref_Angle(rc.pitch_max_angle_*rc.RCChannel_.l_col);// pitch_motor.Motor_Angle_PID.Set_Ref(30);
         yaw_motor.Motor_Angle_PID.Set_Ref_Angle(rc.yaw_max_angle_*rc.RCChannel_.l_row);//yaw_motor.Motor_Angle_PID.Set_Ref(30);
         //rc.Transmit_Data();
 

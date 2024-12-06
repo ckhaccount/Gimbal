@@ -46,7 +46,7 @@ std::array<float, 10> Motor::Get_motor_message() const
     std::array<float, 10> motor_message{};
     motor_message[0] = this->motortype_.ratio_;
     motor_message[1] = this->delta_angle_;
-    motor_message[2] = this->delta_ecd_angle_;
+    motor_message[2] = this->ecd_angle_;
     motor_message[3] = this->rotate_speed_;
     motor_message[4] = this->current_;
     motor_message[5] = this->temp_;

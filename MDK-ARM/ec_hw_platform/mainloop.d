@@ -30,4 +30,4 @@ ec_hw_platform/mainloop.o: ..\Core\Src\MainLoop.cpp ..\Core\Inc\can.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
   ..\Core\Inc\Mainloop.h ..\Core\Inc\General_Motor.h ..\Core\Inc\PID.h \
-  ..\Core\Inc\MotorType.h
+  ..\Core\Inc\MotorType.h ..\Core\Inc\BMI088.h

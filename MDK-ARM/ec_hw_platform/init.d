@@ -31,4 +31,4 @@ ec_hw_platform/init.o: ..\Core\Src\init.cpp ..\Core\Inc\main.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
   ..\Core\Inc\DBUS_RC.h ..\Core\Inc\usart.h ..\Core\Inc\init.h \
   ..\Core\Inc\can.h ..\Core\Inc\tim.h ..\Core\Inc\MotorType.h \
-  ..\Core\Inc\General_Motor.h ..\Core\Inc\PID.h
+  ..\Core\Inc\General_Motor.h ..\Core\Inc\PID.h ..\Core\Inc\BMI088.h

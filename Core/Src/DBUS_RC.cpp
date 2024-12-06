@@ -5,7 +5,7 @@
 
 RC::RC(float yaw_max_angle, float pitch_max_angle)
     : yaw_max_angle_(yaw_max_angle), pitch_max_angle_(pitch_max_angle),RCswitch_{MID, MID},
-      RCChannel_{1024, 1024, 1024, 1024},
+      RCChannel_{0, 0, 0, 0},
       MousePos_{0, 0, 0},
       MousePre_{NON_PRESS_MOUSE, NON_PRESS_MOUSE},
       KeyPre_{N0N_PRESS_KEY, N0N_PRESS_KEY, N0N_PRESS_KEY, N0N_PRESS_KEY,

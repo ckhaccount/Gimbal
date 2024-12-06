@@ -25,7 +25,6 @@ float PID::calc(float ref,float fdb)
     last_err_=err_;
     err_=ref-fdb;
     err_sum_+=limit_2(err_,err_max_,-err_max_);
-    err_sum_=limit_1(err_sum_,err_max_,err_max_);
     pout_=kp_*err_;
     iout_=limit_1(ki_*err_sum_,i_max_,-i_max_);
     dout_=kd_*(err_-last_err_);
@@ -35,6 +34,19 @@ float PID::calc(float ref,float fdb)
 float PID::Expect_Speed(const Motor &motor)
 {
     fdb_=motor.ecd_angle_;
+    //，防止倒转，比如ref_=30，但此时fdb_为350，它就会倒转一大圈
+    while (ref_-fdb_<-180 || ref_-fdb_>180)
+    {
+        if (ref_-fdb_<-180)
+            fdb_-=360;
+        else if (ref_-fdb_>180)
+            fdb_+=360;
+    }
+    return limit_1(calc(ref_,fdb_),100,-100);
+}
+float PID::Expect_Speed(float angle)
+{
+    fdb_=angle;
     //，防止倒转，比如ref_=30，但此时fdb_为350，它就会倒转一大圈
     if (ref_-fdb_<-180)
         fdb_-=360;
@@ -49,7 +61,11 @@ void PID::Set_Fed_Speed(const Motor &motor)
 void PID::Set_Ref_Speed(Motor &motor)
 {
     this->ref_=motor.Motor_Angle_PID.Expect_Speed(motor);
-;
+}
+void PID::Set_Ref_Speed(Motor &motor,float angle)
+{
+    this->ref_=motor.Motor_Angle_PID.Expect_Speed(angle);
+    ;
 }
 void PID::Set_Ref_Angle(float ref)
 {

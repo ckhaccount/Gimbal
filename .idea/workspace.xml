@@ -29,35 +29,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29381c0c-c56f-429c-842c-23a5361d7ecb" name="Changes" comment="optimized_frame_no_examination">
-      <change afterPath="$PROJECT_DIR$/.idea/ec_hw_platform.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/BMI088.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/BMI088.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/BMI088.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/PID.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/PID.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/BMI088.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/Callback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/Callback.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/DBUS_RC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/DBUS_RC.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/General_Motor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/General_Motor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/MainLoop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/MainLoop.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/PID.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/PID.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform.uvguix.Dell" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform.uvguix.Dell" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform.uvprojx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/bmi088.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/callback.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/callback.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/dbus_rc.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/dbus_rc.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/dbus_rc.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/dbus_rc.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.axf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.build_log.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.lnp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform_ec_hw_platform.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/ec_hw_platform_ec_hw_platform.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/general_motor.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/general_motor.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/init.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/init.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/init.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/init.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/mainloop.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/mainloop.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/mainloop.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/mainloop.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/pid.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/pid.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_hw_platform/usart.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ec_hw_platform.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ec_hw_platform.elf.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ec_hw_platform.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/ec_hw_platform.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +129,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -159,6 +165,12 @@
       <workItem from="1732683858838" duration="33224000" />
       <workItem from="1733039433183" duration="601000" />
       <workItem from="1733122088191" duration="2000" />
+      <workItem from="1733214129331" duration="208000" />
+      <workItem from="1733214592890" duration="54943000" />
+      <workItem from="1733400562793" duration="71000" />
+      <workItem from="1733400648419" duration="76000" />
+      <workItem from="1733400732845" duration="15008000" />
+      <workItem from="1733455675954" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="basic frame of gimbal project.">
       <option name="closed" value="true" />
