@@ -11,7 +11,7 @@
 class Motor {
 public:
     explicit Motor(const MotorType& motortype, float angle_kp, float angle_ki, float angle_kd, float angle_i_max, float angle_out_max, float angle_err_max,
-    float speed_kp, float speed_ki, float speed_kd, float speed_i_max, float speed_err_max);//float speed_out_max即为out_current_max
+    float speed_kp, float speed_ki, float speed_kd, float speed_i_max, float speed_err_max, float(*AngleForward)(float), float(*SpeedForward)(float));//float speed_out_max即为out_current_max
     void canRxMsgCallback(const uint8_t rx_data[8]);
     [[nodiscard]] std::array<float, 10> Get_motor_message() const;
 

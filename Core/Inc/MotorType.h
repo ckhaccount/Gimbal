@@ -18,7 +18,10 @@ struct MotorType {
 // M3508 电机子类
 struct M3508_Motor_Type : public MotorType {
     explicit M3508_Motor_Type(const uint32_t id) : MotorType(id) {
-        Tran_Identifier_ = 0x200;
+        if (id<=4)
+            Tran_Identifier_ = 0x200;
+        else
+            Tran_Identifier_ = 0x1FF;
         Rece_Identifier_ = 0x200+id;
         in_current_max_ = 16384;
         out_current_max_ = 20;
@@ -29,11 +32,25 @@ struct M3508_Motor_Type : public MotorType {
 
 // GM6020 电机子类
 struct GM6020_Motor_Type : public MotorType {
-    explicit GM6020_Motor_Type(const uint32_t id) : MotorType(id) {
-        Tran_Identifier_ = 0x1FE;
-        Rece_Identifier_ = 0x204+id;
-        in_current_max_ = 16384;
+    explicit GM6020_Motor_Type(const uint32_t id, int is_vol) : MotorType(id) {
+        if (is_vol)
+        {
+            in_current_max_ = 25000;
+            if (id<=4)
+                Tran_Identifier_ = 0x1FF;
+            else
+                Tran_Identifier_ = 0x2FF;
+        }
+        else
+        {
+            in_current_max_ = 16384;
+            if (id<=4)
+                Tran_Identifier_ = 0x1FE;
+            else
+                Tran_Identifier_ = 0x2FE;
+        }
         out_current_max_ = 3;
+        Rece_Identifier_ = 0x204+id;
         ratio_ = 1;
         has_tem_ = 1;
     }

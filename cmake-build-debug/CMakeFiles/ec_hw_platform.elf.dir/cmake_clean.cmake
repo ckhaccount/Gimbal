@@ -88,8 +88,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
   "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
-  "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
-  "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj.d"
   "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
   "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj.d"
   "ec_hw_platform.elf"

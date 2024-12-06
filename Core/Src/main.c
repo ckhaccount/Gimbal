@@ -117,7 +117,8 @@ int main(void)
   while (1)
   {
     HAL_IWDG_Refresh(&hiwdg);
-    if(mainloop_flag){
+
+?    if(mainloop_flag){
       MainLoop();
     }
     /* USER CODE END WHILE */

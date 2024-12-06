@@ -1,6 +1,5 @@
 --cpu=Cortex-M4.fp.sp
 "ec_hw_platform\startup_stm32f407xx.o"
-"ec_hw_platform\bmi088.o"
 "ec_hw_platform\basic_func.o"
 "ec_hw_platform\callback.o"
 "ec_hw_platform\dbus_rc.o"
@@ -19,6 +18,7 @@
 "ec_hw_platform\usart.o"
 "ec_hw_platform\stm32f4xx_it.o"
 "ec_hw_platform\stm32f4xx_hal_msp.o"
+"ec_hw_platform\bmi088_1.o"
 "ec_hw_platform\stm32f4xx_hal_adc.o"
 "ec_hw_platform\stm32f4xx_hal_adc_ex.o"
 "ec_hw_platform\stm32f4xx_ll_adc.o"

@@ -1,14 +1,11 @@
 #include "main.h"
 #include "DBUS_RC.h"
-#include <cstdio>
-#include <cstring>
-#include "usart.h"
 #include <iostream>
 #include "Basic_Func.h"
-RC rc(30,30);
+
 RC::RC(float yaw_max_angle, float pitch_max_angle)
     : yaw_max_angle_(yaw_max_angle), pitch_max_angle_(pitch_max_angle),RCswitch_{MID, MID},
-      RCChannel_{1024, 1024, 1024, 1024},
+      RCChannel_{0, 0, 0, 0},
       MousePos_{0, 0, 0},
       MousePre_{NON_PRESS_MOUSE, NON_PRESS_MOUSE},
       KeyPre_{N0N_PRESS_KEY, N0N_PRESS_KEY, N0N_PRESS_KEY, N0N_PRESS_KEY,
@@ -33,12 +30,12 @@ uint8_t* RC::Get_data()
 float RC::Get_CH0_r_row()
 {
     uint16_t origin_data_CH0= ((this->rx_data_[0])|(this->rx_data_[1]<<8))&0x07ff;
-    return linearmap(static_cast<int16_t>(origin_data_CH0),RC_CH_VALUE_MIN,RC_CH_VALUE_MAX,-90,90);;
+    return linearmap(static_cast<int16_t>(origin_data_CH0),RC_CH_VALUE_MIN,RC_CH_VALUE_MAX,-1,1);
 }
 float RC::Get_CH1_r_col()
 {
     uint16_t origin_data_CH1 = (((this->rx_data_[1])>>3)|((this->rx_data_[2]))<<5)&0x07ff;
-    return linearmap(static_cast<int16_t>(origin_data_CH1),RC_CH_VALUE_MIN,RC_CH_VALUE_MAX,-90,90);
+    return linearmap(static_cast<int16_t>(origin_data_CH1),RC_CH_VALUE_MIN,RC_CH_VALUE_MAX,-1,1);
 }
 
 float RC::Get_CH2_l_row()

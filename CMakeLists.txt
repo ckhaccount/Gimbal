@@ -74,6 +74,8 @@ set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407IGHX_FLASH.ld
         Core/Inc/General_Motor.h
         Core/Src/General_Motor.cpp
         Core/Inc/MotorType.h
+        Core/Inc/BMI088.h
+        Core/Src/BMI088.cpp
 )
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
@@ -82,7 +84,6 @@ add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT}
         Core/Inc/PID.h
-        Core/Src/BMI088.c
         Core/Inc/DBUS_RC.h
         Core/Src/DBUS_RC.cpp
         Core/Src/init.cpp
